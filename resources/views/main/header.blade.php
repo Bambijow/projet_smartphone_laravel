@@ -1,11 +1,3 @@
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/app.css">
-    <title>Projet Smartphones</title>
-</head>
-
-<body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">Projet Smartphone</a>
@@ -19,7 +11,7 @@
                     <a class="nav-link" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Liste de nos smartphones</a>
+                    <a class="nav-link" href="{{ route('smartphoneListe') }}">Liste de nos smartphones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
@@ -28,6 +20,4 @@
         </div>
     </div>
 </nav>
-</body>
 
-</html>
