@@ -170,3 +170,9 @@ Temporary Items
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+database/factories/SmartphoneFactory.php
+package-lock.json
+public/css/
+public/js/
+public/mix-manifest.json
+resources/sass/
